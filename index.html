@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Lazaro</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" href="icono/icon.png" type="image/png">
+    <link rel="icon" href="icono/iconn.png" type="image/png">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         emailjs.init('hiyjPJvqdFsmQrMNZ')
     </script>
-
 </head>
 
 <body>
-
     <header>
         <nav class="nav">
             <ul class="nav__li">
@@ -27,7 +24,6 @@
             </ul>
         </nav>
     </header>
-
     <section class="perfil">
         <div class="perfil__contenedor">
             <div class="perfil__borde">
@@ -36,7 +32,6 @@
             <h1 class="perfil__nombre">Christian Lazaro</h1>
             <p class="perfil__ocupacion">Software Engineering</p>
     </section>
-
     <section class="estadistica">
         <div class="estadistica__item">
             <h2 class="estadistica__numero">10</h2>
@@ -51,7 +46,6 @@
             <p class="estadistica__descripcion">Meses de experiencia</p>
         </div>
     </section>
-
     <section class="contacto">
         <div class="contacto__icono"><a href="https://www.linkedin.com/in/christian-lazaro-chavez-015213271/"
                 target="_blank"><img src="logos/logotipo-de-linkedin.png" alt="linkedin"></a></div>
@@ -60,7 +54,6 @@
         <div class="contacto__icono"><a href="https://github.com/ChristianJLC" target="_blank"><img
                     src="logos/signo-de-github.png" alt=""></a></div>
     </section>
-
     <section class="secciones">
         <div class="secciones__contenedor">
             <div class="secciones__item-seleccionado"><a href="#sobremi"><i class="fa-solid fa-user"></i> SOBRE MI</a>
@@ -70,7 +63,6 @@
             <div class="secciones__item"><a href="#contacto"><i class="fa-solid fa-envelope"></i> CONTACTO</a></div>
         </div>
     </section>
-
     <section class="informacion" id="sobremi">
         <h2 class="informacion__titulo">Mi Introducción</h2>
         <h3 class="informacion__subtitulo">Sobre Mí</h3>
@@ -101,7 +93,7 @@
                     de Sistemas en la Universidad Tecnológica del Perú (UTP). Me encanta
                     crear experiencias digitales atractivas y funcionales. Busco integrarme a un equipo donde pueda
                     aportar, seguir aprendiendo y dar lo mejor de mí en cada proyecto.</p>
-                <button class="informacion__boton" onclick="location.href='#contacto'">Contactame</button>
+                <button class="informacion__boton" id="btn-contactame">Contactame</button>
             </div>
         </div>
     </section>
@@ -137,20 +129,14 @@
                 <div class="habilidades__titulo">
                     <h2>Backend Developer</h2>
                 </div>
+                <div class="habilidades__item"><i class="fa-solid fa-fire"></i>
+                    <h3>Firebase</h3><span>Basico</span>
+                </div>
                 <div class="habilidades__item"><i class="fa-solid fa-database"></i></i>
                     <h3>SQL</h3><span>Basico</span>
                 </div>
                 <div class="habilidades__item"><i class="fa-brands fa-node-js"></i>
                     <h3>Node.js</h3><span>Intermedio</span>
-                </div>
-                <div class="habilidades__item"><i class="fa-brands fa-js"></i>
-                    <h3>JavaScript</h3><span>Intermedio</span>
-                </div>
-                <div class="habilidades__item"><i class="fa-brands fa-git-alt"></i>
-                    <h3>Git</h3><span>Intermedio</span>
-                </div>
-                <div class="habilidades__item"><i class="fa-solid fa-fire"></i>
-                    <h3>Firebase</h3><span>Intermedio</span>
                 </div>
             </div>
         </div>
